@@ -45,11 +45,13 @@ export default function Index() {
       return () => {
         active = false;
       };
+      // retry intentionally invalidates this focus callback after a failed query.
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [filtro, retry]),
   );
 
   return (
-    <SafeAreaView edges={["bottom"]} className="flex-1 bg-canvas">
+    <SafeAreaView edges={["top", "bottom"]} className="flex-1 bg-canvas">
       <View className="mx-auto w-full max-w-2xl flex-1 px-6">
         <View className="gap-3 pb-6 pt-7">
           <View className="flex-row items-center gap-2">

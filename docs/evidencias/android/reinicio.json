@@ -1,0 +1,27 @@
+{
+  "executedAt": "2026-09-30T22:04:48.437Z",
+  "device": "Samsung Galaxy M35 (SM-M356B)",
+  "android": "16 (API 36)",
+  "expoGo": "57.0.9",
+  "method": "adb am force-stop --user 0 host.exp.exponent; reopen exp://127.0.0.1:8081",
+  "pidBefore": "13262",
+  "pidAfterForceStop": null,
+  "pidAfterReopen": "15220",
+  "storageCleared": false,
+  "verified": [
+    "three records",
+    "Ruptura: 2 seasons, 4/5",
+    "Dark: completed",
+    "The Bear: no rating"
+  ],
+  "result": "PASS",
+  "additionalChecks": [
+    "All filter: 3 series",
+    "Completed filter: Dark only",
+    "Watching filter: Ruptura and The Bear",
+    "Required title and platform validation",
+    "Native Alert: cancel preserves temporary record",
+    "Native Alert: confirm deletes temporary record and returns to list"
+  ],
+  "finalRecordCount": 3
+}

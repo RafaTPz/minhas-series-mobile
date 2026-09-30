@@ -1,0 +1,26 @@
+{
+  "executedAt": "2026-09-30T21:56:22.804Z",
+  "platform": "Expo web / chrome / viewport 390 x 844",
+  "browserVersion": "154.0.8037.92",
+  "persistence": "Browser process closed and reopened with the same persistent profile; real expo-sqlite storage.",
+  "checks": [
+    "empty state",
+    "required fields",
+    "invalid seasons",
+    "create 3 series",
+    "zero seasons",
+    "nullable rating",
+    "remove rating",
+    "edit and focus refresh",
+    "complete and resume",
+    "browser restart persistence",
+    "all filters after restart",
+    "quoted SQL parameters",
+    "cancel deletion",
+    "confirm deletion",
+    "invalid and missing id"
+  ],
+  "pageErrors": [],
+  "result": "PASS",
+  "limitation": "Android/iOS force-stop and reopen were not executed; no connected mobile device or configured emulator."
+}

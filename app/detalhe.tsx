@@ -48,6 +48,8 @@ export default function Detalhe() {
       return () => {
         active = false;
       };
+      // retry intentionally invalidates this focus callback after a failed query.
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [id, retry]),
   );
 

@@ -44,6 +44,8 @@ export default function Form() {
   useEffect(() => {
     if (!editing) return;
     let active = true;
+    // This effect synchronizes a SQLite record; hide old values while fetching/retrying.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     setLoadError("");
     (async () => {
